@@ -17,17 +17,15 @@
 
 		&-left {
 			clip-path: polygon(0% 0%, 55% 0%, 100% 100%, 0% 100%, 0% 0%);
-
 			transform: translateX(-100%);
 			-webkit-transform: translateX(-100%);
 			-moz-transform: translateX(-100%);
 			-ms-transform: translateX(-100%);
 			-o-transform: translateX(-100%);
 			opacity: 0;
-
 			animation: fieldMove 400ms 800ms linear forwards;
 			-webkit-animation: fieldMove 400ms 800ms linear forwards;
-		}
+}
 	}
 
 	&__item {

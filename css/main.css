@@ -217,6 +217,12 @@ body {
   background-color: rgba(20, 120, 64, 0.8);
   clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 28% 100%, 50% 0%);
   backdrop-filter: blur(10px);
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  opacity: 0;
 }
 .about__item {
   width: 100%;
@@ -245,4 +251,8 @@ body {
     -o-transform: translateY(0);
     opacity: 1;
   }
+}
+.field-js-move {
+  animation: fieldMove 400ms linear forwards;
+  -webkit-animation: fieldMove 400ms linear forwards;
 }/*# sourceMappingURL=main.css.map */

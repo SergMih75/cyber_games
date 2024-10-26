@@ -20,3 +20,8 @@
         opacity: 1;
 }
 }
+
+.field-js-move {
+    animation: fieldMove 400ms linear forwards;
+    -webkit-animation: fieldMove 400ms linear forwards;
+}
